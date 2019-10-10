@@ -1,0 +1,137 @@
+{
+  "type": "MetroLocation",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "test:metro" }
+  },
+  "metro": [
+    {
+      "type": "Metro",
+      "properties": {
+        "METRO_ID": 0,
+        "ESTACAO": "Eldorado",
+        "ENDERECO": "",
+        "BAIRRO": "",
+        "REGIONAL": "",
+        "OPEN": true,
+        "NOTAS": "Estação Eldorado"
+      },
+      "geometry": {
+        "type": "Point",
+        "cordenadas": [-19.938826, -44.029234]
+      }
+    },
+    {
+      "type": "Metro",
+      "properties": {
+        "METRO_ID": 1,
+        "ESTACAO": "Cidade Industrial",
+        "ENDERECO": "",
+        "BAIRRO": "Camargos",
+        "REGIONAL": "Oeste",
+        "OPEN": true,
+        "NOTAS": "Estação Cidade Industrial"
+      },
+      "geometry": {
+        "type": "Point",
+        "cordenadas": [-19.94553, -44.01632]
+      }
+    },
+    {
+      "type": "Metro",
+      "properties": {
+        "METRO_ID": 2,
+        "ESTACAO": "Vila Oeste",
+        "ENDERECO": "",
+        "BAIRRO": "Vila Oeste",
+        "REGIONAL": "Oeste",
+        "OPEN": true,
+        "NOTAS": "Estação Vila Oeste"
+      },
+      "geometry": {
+        "type": "Point",
+        "cordenadas": [-19.938616, -44.002733]
+      }
+    },
+    {
+      "type": "Metro",
+      "properties": {
+        "METRO_ID": 3,
+        "ESTACAO": "Gameleira",
+        "ENDERECO": "",
+        "BAIRRO": "Gameleira",
+        "REGIONAL": "Oeste",
+        "OPEN": true,
+        "NOTAS": "Estação Gameleira"
+      },
+      "geometry": {
+        "type": "Point",
+        "cordenadas": [-19.928168, -43.98827]
+      }
+    },
+    {
+      "type": "Metro",
+      "properties": {
+        "METRO_ID": 4,
+        "ESTACAO": "Calafate",
+        "ENDERECO": "",
+        "BAIRRO": "Calafate",
+        "REGIONAL": "Oeste",
+        "OPEN": true,
+        "NOTAS": "Estação Calafate"
+      },
+      "geometry": {
+        "type": "Point",
+        "cordenadas": [-19.922282, -43.970244]
+      }
+    },
+    {
+      "type": "Metro",
+      "properties": {
+        "METRO_ID": 5,
+        "ESTACAO": "Carlos Prates",
+        "ENDERECO": "",
+        "BAIRRO": "",
+        "REGIONAL": "",
+        "OPEN": true,
+        "NOTAS": "Estação Carlos Prates"
+      },
+      "geometry": {
+        "type": "Point",
+        "cordenadas": [-19.918081, -43.957076]
+      }
+    },
+    {
+      "type": "Metro",
+      "properties": {
+        "METRO_ID": 6,
+        "ESTACAO": "Lagoinha",
+        "ENDERECO": "",
+        "BAIRRO": "",
+        "REGIONAL": "",
+        "OPEN": true,
+        "NOTAS": "Estação Lagoinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "cordenadas": [-19.91312, -43.942647]
+      }
+    },
+    {
+      "type": "Metro",
+      "properties": {
+        "METRO_ID": 7,
+        "ESTACAO": "Central",
+        "ENDERECO": "",
+        "BAIRRO": "Floresta",
+        "REGIONAL": "Central",
+        "OPEN": true,
+        "NOTAS": "Estação Central"
+      },
+      "geometry": {
+        "type": "Point",
+        "cordenadas": [-19.917359, -43.933179]
+      }
+    }
+  ]
+}
