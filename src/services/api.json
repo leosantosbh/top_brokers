@@ -1,136 +1,144 @@
 {
-  "type": "MetroLocation",
+  "type": "AptoLocation",
   "crs": {
     "type": "name",
-    "properties": { "name": "test:metro" }
+    "properties": { "name": "test:apto" }
   },
-  "metro": [
+  "aptos": [
     {
-      "type": "Metro",
+      "type": "Apartamento",
       "properties": {
-        "METRO_ID": 0,
-        "ESTACAO": "Eldorado",
-        "ENDERECO": "",
-        "BAIRRO": "",
-        "REGIONAL": "",
+        "APTO_ID": 0,
+        "ENDERECO": "Rua Pintassilgo, 295",
+        "BAIRRO": "Indianópolis",
+        "CEP": "04514-031",
+        "CIDADE": "São Paulo",
+        "UF": "SP",
         "OPEN": true,
-        "NOTAS": "Estação Eldorado"
+        "NOTAS": "Condomínio Edifício Kansas"
       },
       "geometry": {
         "type": "Point",
-        "cordenadas": [-19.938826, -44.029234]
+        "cordenadas": [-23.602656, -46.672545]
       }
     },
     {
-      "type": "Metro",
+      "type": "Apartamento",
       "properties": {
-        "METRO_ID": 1,
-        "ESTACAO": "Cidade Industrial",
-        "ENDERECO": "",
-        "BAIRRO": "Camargos",
-        "REGIONAL": "Oeste",
+        "APTO_ID": 1,
+        "ENDERECO": "Av. Pavão, 211",
+        "BAIRRO": "Indianópolis",
+        "CEP": "04516-010",
+        "CIDADE": "São Paulo",
+        "UF": "SP",
         "OPEN": true,
-        "NOTAS": "Estação Cidade Industrial"
+        "NOTAS": "Edifício Domani II"
       },
       "geometry": {
         "type": "Point",
-        "cordenadas": [-19.94553, -44.01632]
+        "cordenadas": [-23.602927, -46.672572]
       }
     },
     {
-      "type": "Metro",
+      "type": "Apartamento",
       "properties": {
-        "METRO_ID": 2,
-        "ESTACAO": "Vila Oeste",
-        "ENDERECO": "",
-        "BAIRRO": "Vila Oeste",
-        "REGIONAL": "Oeste",
+        "APTO_ID": 2,
+        "ENDERECO": "Rua Pintassilgo, 480",
+        "BAIRRO": "Vila Uberabinha",
+        "CEP": "04514-032",
+        "CIDADE": "São Paulo",
+        "UF": "SP",
         "OPEN": true,
-        "NOTAS": "Estação Vila Oeste"
+        "NOTAS": "Condomínio Edifício Chez Germain"
       },
       "geometry": {
         "type": "Point",
-        "cordenadas": [-19.938616, -44.002733]
+        "cordenadas": [-23.603528, -46.673799]
       }
     },
     {
-      "type": "Metro",
+      "type": "Apartamento",
       "properties": {
-        "METRO_ID": 3,
-        "ESTACAO": "Gameleira",
-        "ENDERECO": "",
-        "BAIRRO": "Gameleira",
-        "REGIONAL": "Oeste",
+        "APTO_ID": 3,
+        "ENDERECO": "Av. Rouxinol, 333",
+        "BAIRRO": "Indianápolis",
+        "CEP": "04516-000",
+        "CIDADE": "São Paulo",
+        "UF": "SP",
         "OPEN": true,
-        "NOTAS": "Estação Gameleira"
+        "NOTAS": "Condomínio Edifício Leblon"
       },
       "geometry": {
         "type": "Point",
-        "cordenadas": [-19.928168, -43.98827]
+        "cordenadas": [-23.602362, -46.671264]
       }
     },
     {
-      "type": "Metro",
+      "type": "Apartamento",
       "properties": {
-        "METRO_ID": 4,
-        "ESTACAO": "Calafate",
-        "ENDERECO": "",
-        "BAIRRO": "Calafate",
-        "REGIONAL": "Oeste",
+        "APTO_ID": 4,
+        "ENDERECO": "Av. Pavão, 231",
+        "BAIRRO": "Indianópolis",
+        "CEP": "04516-010",
+        "CIDADE": "São Paulo",
+        "UF": "SP",
         "OPEN": true,
-        "NOTAS": "Estação Calafate"
+        "NOTAS": "Condomínio Edifício Daumier e Sisley"
       },
       "geometry": {
         "type": "Point",
-        "cordenadas": [-19.922282, -43.970244]
+        "cordenadas": [-23.603173, -46.67205]
       }
     },
     {
-      "type": "Metro",
+      "type": "Apartamento",
       "properties": {
-        "METRO_ID": 5,
-        "ESTACAO": "Carlos Prates",
-        "ENDERECO": "",
-        "BAIRRO": "",
-        "REGIONAL": "",
+        "APTO_ID": 5,
+        "ENDERECO": "Rua Pintassilgo, 155",
+        "BAIRRO": "Indianópolis",
+        "CEP": "04514-001",
+        "CIDADE": "São Paulo",
+        "UF": "SP",
         "OPEN": true,
-        "NOTAS": "Estação Carlos Prates"
+        "NOTAS": "Condomínio Edifício Porto Rotondo"
       },
       "geometry": {
         "type": "Point",
-        "cordenadas": [-19.918081, -43.957076]
+        "cordenadas": [-23.601433, -46.671348]
       }
     },
     {
-      "type": "Metro",
+      "type": "Apartamento",
       "properties": {
-        "METRO_ID": 6,
-        "ESTACAO": "Lagoinha",
-        "ENDERECO": "",
-        "BAIRRO": "",
-        "REGIONAL": "",
+        "APTO_ID": 6,
+        "ENDERECO": "Av. Rouxinol, 388",
+        "BAIRRO": "Indianápolis",
+        "CEP": "04516-000",
+        "CIDADE": "São Paulo",
+        "UF": "SP",
         "OPEN": true,
-        "NOTAS": "Estação Lagoinha"
+        "NOTAS": "Condomínio Edifício Júlia Maria"
       },
       "geometry": {
         "type": "Point",
-        "cordenadas": [-19.91312, -43.942647]
+        "cordenadas": [-23.603158, -46.671026]
       }
     },
     {
-      "type": "Metro",
+      "type": "Apartamento",
       "properties": {
-        "METRO_ID": 7,
-        "ESTACAO": "Central",
-        "ENDERECO": "",
-        "BAIRRO": "Floresta",
-        "REGIONAL": "Central",
+        "APTO_ID": 7,
+        "ENDERECO": "R. Inhambu, 917 ",
+        "BAIRRO": "Vila Uberabinha",
+        "CEP": "04514-031",
+        "CIDADE": "São Paulo",
+        "UF": "SP",
         "OPEN": true,
-        "NOTAS": "Estação Central"
+        "NOTAS": "Condomínio Edifício Stanford Park"
       },
       "geometry": {
         "type": "Point",
-        "cordenadas": [-19.917359, -43.933179]
+        "cordenadas": [-23.602799, -46.669465]
       }
     }
   ]
