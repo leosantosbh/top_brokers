@@ -5,9 +5,9 @@
 /* eslint-disable react-hooks/exhoustive-deps */
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable react-hooks/exhoustive-deps */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import MapGL, { Marker, Popup, NavigationControl } from '@urbica/react-map-gl';
-import { MdHome, MdEqualizer } from 'react-icons/md';
+import { MdHome, MdEqualizer, MdMenu, MdArrowBack } from 'react-icons/md';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import * as metroDate from './services/api.json';
 import './custom_map.css';
@@ -21,6 +21,7 @@ import {
   TextApto,
   Bottom,
   TextLive,
+  Point,
 } from './styles';
 
 export default function App() {
@@ -36,6 +37,16 @@ export default function App() {
   const MAPBOX_ACCESS_TOKEN =
     'pk.eyJ1IjoibGVvc2FudG9zZGV2IiwiYSI6ImNrMHdsMXFkMTFheGYzYnBkZnhpa3IwN2wifQ.q8Q592zA0hdYW8ydCUdM4w';
 
+  useEffect(() => {
+    if (
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+    ) {
+      console.log('oi');
+    }
+  });
+
   function handleClose() {
     setSelectedMetro(null);
   }
@@ -48,8 +59,49 @@ export default function App() {
     setSelectedApto(false);
   }
 
-  return (
-    <ContainerApp>
+  const Menu = () => {
+    const [menuBar, setMenuBar] = useState(false);
+
+    function handleMenuBar() {
+      menuBar ? setMenuBar(false) : setMenuBar(true);
+    }
+
+    if (
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+    ) {
+      return menuBar ? (
+        <MenuBar style={{ width: 50 }}>
+          <Avatar
+            src="https://api.adorable.io/avatars/50/abott@adorable.png"
+            alt="avatar"
+            style={{ width: '38px', height: '38px', borderRadius: '19px' }}
+          />
+          <MdHome color="#000" size={40} style={{ marginTop: '20px' }} />
+          <MdEqualizer color="#000" size={40} style={{ marginTop: '20px' }} />
+          <MdArrowBack
+            color="#000"
+            size={40}
+            style={{ bottom: '10px', position: 'absolute' }}
+            onClick={handleMenuBar}
+          />
+        </MenuBar>
+      ) : (
+        <MdMenu
+          color="#000"
+          size={35}
+          style={{
+            position: 'absolute',
+            right: '20px',
+            top: '20px',
+            zIndex: 999,
+          }}
+          onClick={handleMenuBar}
+        />
+      );
+    }
+    return (
       <MenuBar>
         <Avatar
           src="https://api.adorable.io/avatars/50/abott@adorable.png"
@@ -58,6 +110,12 @@ export default function App() {
         <MdHome color="#000" size={60} style={{ marginTop: '20px' }} />
         <MdEqualizer color="#000" size={60} style={{ marginTop: '20px' }} />
       </MenuBar>
+    );
+  };
+
+  return (
+    <ContainerApp>
+      <Menu />
       {!selectedApto ? (
         <MapGL
           {...viewport}
@@ -77,14 +135,11 @@ export default function App() {
               offsetTop={0}
               offsetLeft={0}
             >
-              <div
-                style={{
-                  width: '14px',
-                  height: '14px',
-                  borderRadius: '7px',
-                  background: '#333',
-                }}
+              <Point
                 onMouseOver={() => {
+                  setSelectedMetro(apto);
+                }}
+                onClick={() => {
                   setSelectedMetro(apto);
                 }}
                 // onMouseOut={() => {

@@ -63,3 +63,14 @@ export const TextLive = styled.div`
   font-weight: bold;
   color: #fff;
 `;
+
+export const Point = styled.div`
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background: #333;
+  cursor: pointer;
+  :hover {
+    background: #229434;
+  }
+`;
