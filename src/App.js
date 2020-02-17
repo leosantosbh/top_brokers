@@ -5,7 +5,7 @@
 /* eslint-disable react-hooks/exhoustive-deps */
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable react-hooks/exhoustive-deps */
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import MapGL, { Marker, Popup, NavigationControl } from '@urbica/react-map-gl';
 import { MdHome, MdEqualizer, MdMenu, MdArrowBack } from 'react-icons/md';
 import 'mapbox-gl/dist/mapbox-gl.css';
@@ -37,16 +37,6 @@ export default function App() {
   const MAPBOX_ACCESS_TOKEN =
     'pk.eyJ1IjoibGVvc2FudG9zZGV2IiwiYSI6ImNrMHdsMXFkMTFheGYzYnBkZnhpa3IwN2wifQ.q8Q592zA0hdYW8ydCUdM4w';
 
-  useEffect(() => {
-    if (
-      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-        navigator.userAgent
-      )
-    ) {
-      console.log('oi');
-    }
-  });
-
   function handleClose() {
     setSelectedMetro(null);
   }
@@ -71,34 +61,38 @@ export default function App() {
         navigator.userAgent
       )
     ) {
-      return menuBar ? (
-        <MenuBar style={{ width: 50 }}>
-          <Avatar
-            src="https://api.adorable.io/avatars/50/abott@adorable.png"
-            alt="avatar"
-            style={{ width: '38px', height: '38px', borderRadius: '19px' }}
-          />
-          <MdHome color="#000" size={40} style={{ marginTop: '20px' }} />
-          <MdEqualizer color="#000" size={40} style={{ marginTop: '20px' }} />
-          <MdArrowBack
+      return !selectedApto ? (
+        menuBar ? (
+          <MenuBar style={{ width: 50 }}>
+            <Avatar
+              src="https://api.adorable.io/avatars/50/abott@adorable.png"
+              alt="avatar"
+              style={{ width: '38px', height: '38px', borderRadius: '19px' }}
+            />
+            <MdHome color="#000" size={40} style={{ marginTop: '20px' }} />
+            <MdEqualizer color="#000" size={40} style={{ marginTop: '20px' }} />
+            <MdArrowBack
+              color="#000"
+              size={40}
+              style={{ bottom: '10px', position: 'absolute' }}
+              onClick={handleMenuBar}
+            />
+          </MenuBar>
+        ) : (
+          <MdMenu
             color="#000"
-            size={40}
-            style={{ bottom: '10px', position: 'absolute' }}
+            size={35}
+            style={{
+              position: 'absolute',
+              right: '20px',
+              top: '20px',
+              zIndex: 999,
+            }}
             onClick={handleMenuBar}
           />
-        </MenuBar>
+        )
       ) : (
-        <MdMenu
-          color="#000"
-          size={35}
-          style={{
-            position: 'absolute',
-            right: '20px',
-            top: '20px',
-            zIndex: 999,
-          }}
-          onClick={handleMenuBar}
-        />
+        <> </>
       );
     }
     return (
