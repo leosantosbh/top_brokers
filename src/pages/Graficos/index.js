@@ -260,7 +260,7 @@ export default function Graficos(props) {
       </div>
       <div style={{ fontSize: '80px', fontWeight: 'bold' }}>+</div>
       <div className="chart">
-        <Logo src={Money} alt="carro" style={{ width: '130px', height: '80px '}}/>
+        <Logo src={Refeicao} alt="carro" style={{ width: '130px', height: '80px '}}/>
         <HighchartsReact
           highcharts={Highcharts}
           options={{
@@ -341,7 +341,7 @@ export default function Graficos(props) {
 
       <div style={{ fontSize: '80px', fontWeight: 'bold' }}>+</div>
       <div className="chart">
-        <Logo src={Refeicao} alt="carro" style={{ width: '120px', height: '80px '}}/>
+        <Logo src={Money} alt="carro" style={{ width: '120px', height: '80px '}}/>
         <HighchartsReact
           highcharts={Highcharts}
           options={{
