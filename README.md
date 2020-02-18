@@ -49,12 +49,16 @@ Abra [http://localhost:1234](http://localhost:1234) em seu browser.
 
 ## Time
 
-- Joel Melo | Business 
-- Nathália Santiago | Developer
-- Leonardo Santos | Developer
-- Daniele Misani | UX Designer
-- Kleidmilson Ibiapina | Marketing
+>[<img src="https://imageog.flaticon.com/icons/png/128/124/124011.png?size=16x16f&pad=10,10,10,10&ext=png"/> Joel Melo | Business ](https://www.linkedin.com/in/joeldemelo/)<br>
+>[<img src="https://imageog.flaticon.com/icons/png/128/124/124011.png?size=16x16f&pad=10,10,10,10&ext=png"/> Nathália Santiago | Developer](https://www.linkedin.com/in/santiagonathalia/)<br>
+>[<img src="https://imageog.flaticon.com/icons/png/128/124/124011.png?size=16x16f&pad=10,10,10,10&ext=png"/> Leonardo Santos | Developer](https://www.linkedin.com/in/leosantosbh/)<br>
+>[<img src="https://imageog.flaticon.com/icons/png/128/124/124011.png?size=16x16f&pad=10,10,10,10&ext=png"/> Daniele Misani | UX Designer](https://www.linkedin.com/in/danipishinin/)<br>
+>[<img src="https://imageog.flaticon.com/icons/png/128/124/124011.png?size=16x16f&pad=10,10,10,10&ext=png"/> Kleidmilson Ibiapina | Marketing](https://www.linkedin.com/in/kleidimilson-ibiapina-151266166/)<br>
 
 ## Licença
 
-MIT
+<p align="center"> 
+   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT"> 
+   <img alt="Repository size" src="https://img.shields.io/github/repo-size/leosantosbh/top_brokers.svg">
+   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/leosantosbh/top_brokers?color=blue">
+</p>
