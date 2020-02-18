@@ -12,6 +12,7 @@ import MapGL, { Marker, Popup, NavigationControl } from '@urbica/react-map-gl';
 import * as metroDate from '../services/api.json';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import Graficos from './Graficos';
+import Foto from '../assets/avatar.png';
 
 import {
   ContainerApp,
@@ -35,7 +36,7 @@ export default function App() {
   const [viewport, setViewport] = useState({
     latitude: -23.6023114,
     longitude: -46.6718928,
-    zoom: 17.5,
+    zoom: 16,
   });
 
   function handleClose() {
@@ -79,7 +80,7 @@ export default function App() {
         menuBar ? (
           <MenuBar style={{ width: 50 }}>
             <Avatar
-              src="https://api.adorable.io/avatars/50/abott@adorable.png"
+              src={Foto}
               alt="avatar"
               style={{ width: '38px', height: '38px', borderRadius: '19px' }}
             />
@@ -126,7 +127,7 @@ export default function App() {
     return (
       <MenuBar>
         <Avatar
-          src="https://api.adorable.io/avatars/50/abott@adorable.png"
+          src={Foto}
           alt="avatar"
         />
         <MdHome
