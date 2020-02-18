@@ -10,7 +10,7 @@ Desenvolvido em React JS para Mega Hack 2020 organizado pela Shawee.
 
 ## A solução
 
-<a href="https://youtu.be/uWW9DDxPD68">Video Explicativo</a>
+<a href="https://youtu.be/F7WyQH7gZtI">Pitch - Video Explicativo</a>
 
 Para auxiliar no engajamento do Corretor na plataforma da Loft, apresentamos o programa de parcerias para os corretores mais engajados no TOP BROKERS com recompensas em 3 categorias:
 - Locomoção: através de parcerias com empresas de mobilidade: Uber, Cabify, 99 Taxis
