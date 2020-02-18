@@ -1,10 +1,10 @@
 <p align="center">
-<a href="https://jovial-tereshkova-383847.netlify.com/" alt="Top Brokers Painel"> - LIVE
+<a href="#" alt="Top Brokers Painel">
   </a></p>
 
 # Top Brokers Painel
 
-<a href="https://github.com/leosantosbh/top_brokers">Top Brokers Painel</a>
+<a href="https://jovial-tereshkova-383847.netlify.com/">Top Brokers Painel</a>
 
 Desenvolvido em React JS para Mega Hack 2020 organizado pela Shawee.
 
