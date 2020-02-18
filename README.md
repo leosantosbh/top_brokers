@@ -8,10 +8,6 @@
 
 Desenvolvido em React JS para Mega Hack 2020 organizado pela Shawee.
 
-## Descrição do Problema
-
-aaaaaaa
-
 ## A solução
 
 <a href="https://youtu.be/uWW9DDxPD68">Video Explicativo</a>
