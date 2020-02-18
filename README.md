@@ -22,19 +22,19 @@ aaaaaaaa
 
 Mapa (Visão Corretor)
 
-<img src="./src/assets/images/capiture_1.jpg" width="70%">
+<img src="./src/assets/capiture_1.jpg" width="70%">
 
 Detalhes
 
-<img src="./src/assets/images/capiture_2.jpg" width="70%">
+<img src="./src/assets/capiture_2.jpg" width="70%">
 
 Camera 3d
 
-<img src="./src/assets/images/capiture_3.jpg" width="70%">
+<img src="./src/assets/capiture_3.jpg" width="70%">
 
 Relatórios + Bonificação
 
-<img src="./src/assets/images/capiture_4.jpg" width="70%">
+<img src="./src/assets/capiture_4.jpg" width="70%">
 
 ## Instalação
 
