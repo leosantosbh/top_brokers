@@ -38,14 +38,10 @@ Relatórios + Bonificação
 
 ## Instalação
 
-Instale as dependencias necessárias.
-console
 yarn install ou npm install
 
 ## Execução
 
-Na pasta raíz do projeto execute o metro bundler em um terminal.
-console
 yarn start
 
 Abra [http://localhost:1234](http://localhost:1234) em seu browser.
