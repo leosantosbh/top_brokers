@@ -15,7 +15,7 @@ Desenvolvido em React JS para Mega Hack 2020 organizado pela Shawee.
 Para auxiliar no engajamento do Corretor na plataforma da Loft, apresentamos o programa de parcerias para os corretores mais engajados no TOP BROKERS com recompensas em 3 categorias:
 - Locomoção: através de parcerias com empresas de mobilidade: Uber, Cabify, 99 Taxis
 - Refeição : iFood, Uber Eats
-- Gratificação: concedido por meios de pontos no cartão de crédito: NuBank  ou por cashback com PicPay e Mérliuz. 
+- Gratificação: concedido por meios de pontos no cartão de crédito: NuBank  ou por cashback com PicPay e Méliuz. 
 A restituição da recompensa se dará após atingida determinada pontuação, um voucher para uso nas categorias de locomoção/refeição e pontos no cartão no caso de gratificação.
 
 
