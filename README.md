@@ -16,7 +16,11 @@ aaaaaaa
 
 <a href="https://youtu.be/uWW9DDxPD68">Video Explicativo</a>
 
-aaaaaaaa
+Para auxiliar no engajamento do Corretor na plataforma da Loft, apresentamos o programa de parcerias para os corretores mais engajados no TOP BROKERS com recompensas em 3 categorias:
+- Locomoção: através de parcerias com empresas de mobilidade: Uber, Cabify, 99 Taxis
+- Refeição : iFood, Uber Eats
+- Gratificação: concedido por meios de pontos no cartão de crédito: NuBank
+A restituição da recompensa se dará após atingida determinada pontuação, um voucher para uso nas categorias de locomoção/refeição e pontos no cartão no caso de gratificação.
 
 ## Imagens da Aplicação
 
