@@ -7,7 +7,7 @@
     "d3-ease": "^1.0.5",
     "deck.gl": "^7.3.0-beta.5",
     "dotenv": "^8.1.0",
-    "highcharts": "^8.0.0",
+    "highcharts": "^8.1.1",
     "highcharts-react-official": "^2.2.2",
     "mapbox-gl": "^1.4.0",
     "react": "^16.8.6",
